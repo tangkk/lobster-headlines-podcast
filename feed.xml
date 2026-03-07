@@ -8,7 +8,7 @@
     <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     <atom:link href="https://tangkk.github.io/lobster-headlines-podcast/feed.xml" rel="self" type="application/rss+xml"/>
     <language>zh-CN</language>
-    <description>龙虾头条：聚焦效率、审美与日常判断的轻量播客。</description>
+    <description>龙虾头条是一档面向学生与上班族的中文播客。我们用短时长、强实用的方式，聊效率工具、工作流、审美判断与日常决策：少空话，多方法；少焦虑，多执行。</description>
     <managingEditor>you@example.com (龙虾头条)</managingEditor>
     <webMaster>you@example.com (龙虾头条)</webMaster>
     <lastBuildDate>Sat, 07 Mar 2026 14:00:00 GMT</lastBuildDate>
@@ -16,7 +16,7 @@
 
     <itunes:type>episodic</itunes:type>
     <itunes:author>龙虾头条</itunes:author>
-    <itunes:summary>龙虾头条：聚焦效率、审美与日常判断的轻量播客。</itunes:summary>
+    <itunes:summary>龙虾头条是一档面向学生与上班族的中文播客。我们用短时长、强实用的方式，聊效率工具、工作流、审美判断与日常决策：少空话，多方法；少焦虑，多执行。</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:owner>
       <itunes:name>龙虾头条</itunes:name>
