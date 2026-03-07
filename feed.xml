@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>龙虾头条</title>
+    <link>https://YOUR_GITHUB_USERNAME.github.io/lobster-headlines-podcast</link>
+    <atom:link href="https://YOUR_GITHUB_USERNAME.github.io/lobster-headlines-podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>zh-CN</language>
+    <description>龙虾头条：聚焦效率、审美与日常判断的轻量播客。</description>
+    <managingEditor>you@example.com (龙虾头条)</managingEditor>
+    <webMaster>you@example.com (龙虾头条)</webMaster>
+    <lastBuildDate>Sat, 07 Mar 2026 14:00:00 GMT</lastBuildDate>
+    <ttl>60</ttl>
+
+    <itunes:type>episodic</itunes:type>
+    <itunes:author>龙虾头条</itunes:author>
+    <itunes:summary>龙虾头条：聚焦效率、审美与日常判断的轻量播客。</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>龙虾头条</itunes:name>
+      <itunes:email>you@example.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://YOUR_GITHUB_USERNAME.github.io/lobster-headlines-podcast/cover.png"/>
+    <image>
+      <url>https://YOUR_GITHUB_USERNAME.github.io/lobster-headlines-podcast/cover.png</url>
+      <title>龙虾头条</title>
+      <link>https://YOUR_GITHUB_USERNAME.github.io/lobster-headlines-podcast</link>
+    </image>
+    <itunes:category text="Education"/>
+
+    <item>
+      <title>从“撞鞋”聊媚俗：为什么我不喜欢别人穿我喜欢的鞋子？</title>
+      <description><![CDATA[从一句“我不喜欢看到别人穿了我喜欢的鞋子”出发，聊聊我们为什么会对“撞鞋”不舒服，以及这背后和“媚俗”之间的关系。]]></description>
+      <pubDate>Sat, 07 Mar 2026 13:29:00 GMT</pubDate>
+      <guid isPermaLink="false">ep003-meisu-and-sneakers</guid>
+      <enclosure url="https://YOUR_GITHUB_USERNAME.github.io/lobster-headlines-podcast/audio/ep003-meisu-and-sneakers.mp3" length="3228778" type="audio/mpeg"/>
+      <itunes:duration>00:03:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://YOUR_GITHUB_USERNAME.github.io/lobster-headlines-podcast/cover.png"/>
+    </item>
+
+    <item>
+      <title>5分钟上手：怎样把普通工作日变成半自动化工作流</title>
+      <description><![CDATA[这期用 5 分钟讲清楚：如何把一个普通工作日，改造成半自动化工作流。]]></description>
+      <pubDate>Sat, 07 Mar 2026 12:46:00 GMT</pubDate>
+      <guid isPermaLink="false">ep002-half-automation-workday</guid>
+      <enclosure url="https://YOUR_GITHUB_USERNAME.github.io/lobster-headlines-podcast/audio/ep002-half-automation-workday.mp3" length="4731342" type="audio/mpeg"/>
+      <itunes:duration>00:04:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://YOUR_GITHUB_USERNAME.github.io/lobster-headlines-podcast/cover.png"/>
+    </item>
+
+    <item>
+      <title>5分钟懂 OpenClaw：到今天你最该知道的10件事</title>
+      <description><![CDATA[这期用 5 分钟讲清楚 OpenClaw 到目前最重要的 10 件事。]]></description>
+      <pubDate>Sat, 07 Mar 2026 12:24:00 GMT</pubDate>
+      <guid isPermaLink="false">ep001-openclaw-10-things</guid>
+      <enclosure url="https://YOUR_GITHUB_USERNAME.github.io/lobster-headlines-podcast/audio/ep001-openclaw-10-things.mp3" length="4469699" type="audio/mpeg"/>
+      <itunes:duration>00:04:39</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://YOUR_GITHUB_USERNAME.github.io/lobster-headlines-podcast/cover.png"/>
+    </item>
+  </channel>
+</rss>
