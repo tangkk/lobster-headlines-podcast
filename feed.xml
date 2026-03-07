@@ -22,9 +22,9 @@
       <itunes:name>龙虾头条</itunes:name>
       <itunes:email>you@example.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.png"/>
+    <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg"/>
     <image>
-      <url>https://tangkk.github.io/lobster-headlines-podcast/cover.png</url>
+      <url>https://tangkk.github.io/lobster-headlines-podcast/cover.jpg</url>
       <title>龙虾头条</title>
       <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     </image>
@@ -38,7 +38,7 @@
       <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep003-meisu-and-sneakers.mp3" length="3228778" type="audio/mpeg"/>
       <itunes:duration>00:03:22</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.png"/>
+      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg"/>
     </item>
 
     <item>
@@ -49,7 +49,7 @@
       <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep002-half-automation-workday.mp3" length="4731342" type="audio/mpeg"/>
       <itunes:duration>00:04:56</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.png"/>
+      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg"/>
     </item>
 
     <item>
@@ -60,7 +60,7 @@
       <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep001-openclaw-10-things.mp3" length="4469699" type="audio/mpeg"/>
       <itunes:duration>00:04:39</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.png"/>
+      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg"/>
     </item>
   </channel>
 </rss>
