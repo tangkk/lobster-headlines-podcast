@@ -8,7 +8,7 @@
     <description>龙虾头条是一档面向学生与上班族的中文播客。我们用短时长、强实用的方式，聊效率工具、工作流、审美判断与日常决策：少空话，多方法；少焦虑，多执行。</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾头条)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾头条)</webMaster>
-    <lastBuildDate>Sun, 08 Mar 2026 11:14:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 14:18:12 +0000</lastBuildDate>
     <ttl>60</ttl>
 
     <itunes:type>episodic</itunes:type>
@@ -27,7 +27,7 @@
     </image>
     <itunes:category text="Education" />
 
-    <item><title>OpenClaw 的 2-3 年：从会用工具到会做事</title><description><![CDATA[【本期主题】
+    <item><title>AI语音终于能听了？我做了35个音色盲测后的结论</title><description>这一期我做了一次笨但有效的测试：把可用的AI音色拉出来盲听，一共三十五个。结论很直接：AI语音已经过了不能用的门槛，但还没到闭眼可用。\n\n我用三条标准筛选：自然度、信息承载能力、可持续收听。\n\n核心发现：\n- 有特点不等于适合播客\n- 同一个音色，文稿写法会显著改变最终质感\n- 与其找万能神音色，不如按栏目匹配声音人格\n\n如果你也在做内容，先别问哪个声音最好，先问哪个声音最适合这档节目。</description><pubDate>Sun, 08 Mar 2026 14:18:12 +0000</pubDate><guid isPermaLink="false">ep005-ai-voice-35-blindtest</guid><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep005-ai-voice-35-blindtest.mp3" length="1254816" type="audio/mpeg" /><itunes:duration>00:03:29</itunes:duration><itunes:explicit>false</itunes:explicit></item><item><title>OpenClaw 的 2-3 年：从会用工具到会做事</title><description>【本期主题】
 OpenClaw 在未来 2-3 年，会有怎样的演变？
 
 【适合谁听】
@@ -45,15 +45,15 @@ OpenClaw 在未来 2-3 年，会有怎样的演变？
 - 把 AI 当协作者，你做判断与最终责任
 
 【本期结论】
-未来 2-3 年，OpenClaw 最关键的进化，不是更会聊天，而是更能把事情推进到可交付。]]></description><pubDate>Sun, 08 Mar 2026 11:14:51 +0000</pubDate><guid isPermaLink="false">ep004-openclaw-2-3y-evolution</guid><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep004-openclaw-2-3y-evolution.mp3" length="3951431" type="audio/mpeg" /><itunes:duration>00:04:02</itunes:duration><itunes:explicit>false</itunes:explicit></item><item>
+未来 2-3 年，OpenClaw 最关键的进化，不是更会聊天，而是更能把事情推进到可交付。</description><pubDate>Sun, 08 Mar 2026 11:14:51 +0000</pubDate><guid isPermaLink="false">ep004-openclaw-2-3y-evolution</guid><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep004-openclaw-2-3y-evolution.mp3" length="3951431" type="audio/mpeg" /><itunes:duration>00:04:02</itunes:duration><itunes:explicit>false</itunes:explicit></item><item>
       <title>从“撞鞋”聊媚俗：为什么我不喜欢别人穿我喜欢的鞋子？</title>
-      <description><![CDATA[从一句“我不喜欢看到别人穿了我喜欢的鞋子”出发，聊聊我们为什么会对“撞鞋”不舒服，以及这背后和“媚俗”之间的关系。
+      <description>从一句“我不喜欢看到别人穿了我喜欢的鞋子”出发，聊聊我们为什么会对“撞鞋”不舒服，以及这背后和“媚俗”之间的关系。
 
 这期会讲到：
 - 独特感、身份感、被复制焦虑
 - 媚俗真正的判断标准
 - 4个快速自检问题
-- 1个可落地的“个人审美清单”方法]]></description>
+- 1个可落地的“个人审美清单”方法</description>
       <pubDate>Sat, 07 Mar 2026 13:29:00 GMT</pubDate>
       <guid isPermaLink="false">ep003-meisu-and-sneakers</guid>
       <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep003-meisu-and-sneakers.mp3" length="3228778" type="audio/mpeg" />
@@ -64,7 +64,7 @@ OpenClaw 在未来 2-3 年，会有怎样的演变？
 
     <item>
       <title>5分钟上手：怎样把普通工作日变成半自动化工作流</title>
-      <description><![CDATA[这期用 5 分钟讲清楚：如何把一个普通工作日，改造成“半自动化工作流”。
+      <description>这期用 5 分钟讲清楚：如何把一个普通工作日，改造成“半自动化工作流”。
 
 你会听到：
 - 怎么找到最该自动化的高频小任务
@@ -72,7 +72,7 @@ OpenClaw 在未来 2-3 年，会有怎样的演变？
 - 为什么“先审后发”是关键安全阀
 - 如何用中午与下班前两个检查点，持续复利效率
 
-适合学生和上班族，尤其是每天重复性工作较多、想提效但不想走复杂路线的人。]]></description>
+适合学生和上班族，尤其是每天重复性工作较多、想提效但不想走复杂路线的人。</description>
       <pubDate>Sat, 07 Mar 2026 12:46:00 GMT</pubDate>
       <guid isPermaLink="false">ep002-half-automation-workday</guid>
       <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep002-half-automation-workday.mp3" length="4731342" type="audio/mpeg" />
@@ -83,7 +83,7 @@ OpenClaw 在未来 2-3 年，会有怎样的演变？
 
     <item>
       <title>5分钟懂 OpenClaw：到今天你最该知道的10件事</title>
-      <description><![CDATA[这期用 5 分钟讲清楚 OpenClaw 到目前最重要的 10 件事：
+      <description>这期用 5 分钟讲清楚 OpenClaw 到目前最重要的 10 件事：
 它和普通聊天工具的区别、如何设定“先审后发”的协作规则，以及学生和上班族最实用的落地方式。
 
 适合你如果：
@@ -103,7 +103,7 @@ OpenClaw 在未来 2-3 年，会有怎样的演变？
 9. 先有规则再有速度
 10. 学生和上班族的落地用法
 
-如果你想从今天就开始，先选一个每天重复的小任务，连续跑一周，你会看到明显差距。]]></description>
+如果你想从今天就开始，先选一个每天重复的小任务，连续跑一周，你会看到明显差距。</description>
       <pubDate>Sat, 07 Mar 2026 12:24:00 GMT</pubDate>
       <guid isPermaLink="false">ep001-openclaw-10-things</guid>
       <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep001-openclaw-10-things.mp3" length="4469699" type="audio/mpeg" />
