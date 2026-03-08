@@ -1,17 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  xmlns:atom="http://www.w3.org/2005/Atom"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>龙虾头条</title>
     <link>https://tangkk.github.io/lobster-headlines-podcast</link>
-    <atom:link href="https://tangkk.github.io/lobster-headlines-podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://tangkk.github.io/lobster-headlines-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <language>zh-CN</language>
     <description>龙虾头条是一档面向学生与上班族的中文播客。我们用短时长、强实用的方式，聊效率工具、工作流、审美判断与日常决策：少空话，多方法；少焦虑，多执行。</description>
     <managingEditor>you@example.com (龙虾头条)</managingEditor>
     <webMaster>you@example.com (龙虾头条)</webMaster>
-    <lastBuildDate>Sat, 07 Mar 2026 14:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 11:14:51 +0000</lastBuildDate>
     <ttl>60</ttl>
 
     <itunes:type>episodic</itunes:type>
@@ -22,45 +19,45 @@
       <itunes:name>龙虾头条</itunes:name>
       <itunes:email>you@example.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg"/>
+    <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg" />
     <image>
       <url>https://tangkk.github.io/lobster-headlines-podcast/cover.jpg</url>
       <title>龙虾头条</title>
       <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     </image>
-    <itunes:category text="Education"/>
+    <itunes:category text="Education" />
 
-    <item>
+    <item><title>OpenClaw 的 2-3 年：从会用工具到会做事</title><description>面向学生和上班族，聊 OpenClaw 在未来 2-3 年的四个关键演变：任务驱动、多系统编排、草案审批执行流程、个性化与边界治理。少空话，多方法。</description><pubDate>Sun, 08 Mar 2026 11:14:51 +0000</pubDate><guid isPermaLink="false">ep004-openclaw-2-3y-evolution</guid><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep004-openclaw-2-3y-evolution.mp3" length="3951431" type="audio/mpeg" /><itunes:duration>00:04:02</itunes:duration><itunes:explicit>false</itunes:explicit></item><item>
       <title>从“撞鞋”聊媚俗：为什么我不喜欢别人穿我喜欢的鞋子？</title>
-      <description><![CDATA[从一句“我不喜欢看到别人穿了我喜欢的鞋子”出发，聊聊我们为什么会对“撞鞋”不舒服，以及这背后和“媚俗”之间的关系。]]></description>
+      <description>从一句“我不喜欢看到别人穿了我喜欢的鞋子”出发，聊聊我们为什么会对“撞鞋”不舒服，以及这背后和“媚俗”之间的关系。</description>
       <pubDate>Sat, 07 Mar 2026 13:29:00 GMT</pubDate>
       <guid isPermaLink="false">ep003-meisu-and-sneakers</guid>
-      <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep003-meisu-and-sneakers.mp3" length="3228778" type="audio/mpeg"/>
+      <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep003-meisu-and-sneakers.mp3" length="3228778" type="audio/mpeg" />
       <itunes:duration>00:03:22</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg"/>
+      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg" />
     </item>
 
     <item>
       <title>5分钟上手：怎样把普通工作日变成半自动化工作流</title>
-      <description><![CDATA[这期用 5 分钟讲清楚：如何把一个普通工作日，改造成半自动化工作流。]]></description>
+      <description>这期用 5 分钟讲清楚：如何把一个普通工作日，改造成半自动化工作流。</description>
       <pubDate>Sat, 07 Mar 2026 12:46:00 GMT</pubDate>
       <guid isPermaLink="false">ep002-half-automation-workday</guid>
-      <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep002-half-automation-workday.mp3" length="4731342" type="audio/mpeg"/>
+      <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep002-half-automation-workday.mp3" length="4731342" type="audio/mpeg" />
       <itunes:duration>00:04:56</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg"/>
+      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg" />
     </item>
 
     <item>
       <title>5分钟懂 OpenClaw：到今天你最该知道的10件事</title>
-      <description><![CDATA[这期用 5 分钟讲清楚 OpenClaw 到目前最重要的 10 件事。]]></description>
+      <description>这期用 5 分钟讲清楚 OpenClaw 到目前最重要的 10 件事。</description>
       <pubDate>Sat, 07 Mar 2026 12:24:00 GMT</pubDate>
       <guid isPermaLink="false">ep001-openclaw-10-things</guid>
-      <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep001-openclaw-10-things.mp3" length="4469699" type="audio/mpeg"/>
+      <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep001-openclaw-10-things.mp3" length="4469699" type="audio/mpeg" />
       <itunes:duration>00:04:39</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg"/>
+      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg" />
     </item>
   </channel>
 </rss>
