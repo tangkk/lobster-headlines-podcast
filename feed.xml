@@ -27,9 +27,33 @@
     </image>
     <itunes:category text="Education" />
 
-    <item><title>OpenClaw 的 2-3 年：从会用工具到会做事</title><description>面向学生和上班族，聊 OpenClaw 在未来 2-3 年的四个关键演变：任务驱动、多系统编排、草案审批执行流程、个性化与边界治理。少空话，多方法。</description><pubDate>Sun, 08 Mar 2026 11:14:51 +0000</pubDate><guid isPermaLink="false">ep004-openclaw-2-3y-evolution</guid><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep004-openclaw-2-3y-evolution.mp3" length="3951431" type="audio/mpeg" /><itunes:duration>00:04:02</itunes:duration><itunes:explicit>false</itunes:explicit></item><item>
+    <item><title>OpenClaw 的 2-3 年：从会用工具到会做事</title><description><![CDATA[【本期主题】
+OpenClaw 在未来 2-3 年，会有怎样的演变？
+
+【适合谁听】
+学生、上班族
+
+【你会听到】
+1) 交互范式变化：从对话驱动到任务驱动
+2) 能力边界扩展：从单工具到多系统编排
+3) 协作流程标准化：先草案、再审批、后执行
+4) 个性化与边界治理并行：更懂你，也更可控
+
+【三条可落地建议】
+- 用“目标+约束”而非“零散命令”来提需求
+- 建立可复用模板（周报/复盘/选题/作业）
+- 把 AI 当协作者，你做判断与最终责任
+
+【本期结论】
+未来 2-3 年，OpenClaw 最关键的进化，不是更会聊天，而是更能把事情推进到可交付。]]></description><pubDate>Sun, 08 Mar 2026 11:14:51 +0000</pubDate><guid isPermaLink="false">ep004-openclaw-2-3y-evolution</guid><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep004-openclaw-2-3y-evolution.mp3" length="3951431" type="audio/mpeg" /><itunes:duration>00:04:02</itunes:duration><itunes:explicit>false</itunes:explicit></item><item>
       <title>从“撞鞋”聊媚俗：为什么我不喜欢别人穿我喜欢的鞋子？</title>
-      <description>从一句“我不喜欢看到别人穿了我喜欢的鞋子”出发，聊聊我们为什么会对“撞鞋”不舒服，以及这背后和“媚俗”之间的关系。</description>
+      <description><![CDATA[从一句“我不喜欢看到别人穿了我喜欢的鞋子”出发，聊聊我们为什么会对“撞鞋”不舒服，以及这背后和“媚俗”之间的关系。
+
+这期会讲到：
+- 独特感、身份感、被复制焦虑
+- 媚俗真正的判断标准
+- 4个快速自检问题
+- 1个可落地的“个人审美清单”方法]]></description>
       <pubDate>Sat, 07 Mar 2026 13:29:00 GMT</pubDate>
       <guid isPermaLink="false">ep003-meisu-and-sneakers</guid>
       <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep003-meisu-and-sneakers.mp3" length="3228778" type="audio/mpeg" />
@@ -40,7 +64,15 @@
 
     <item>
       <title>5分钟上手：怎样把普通工作日变成半自动化工作流</title>
-      <description>这期用 5 分钟讲清楚：如何把一个普通工作日，改造成半自动化工作流。</description>
+      <description><![CDATA[这期用 5 分钟讲清楚：如何把一个普通工作日，改造成“半自动化工作流”。
+
+你会听到：
+- 怎么找到最该自动化的高频小任务
+- 如何用“输入—处理—输出”拆任务
+- 为什么“先审后发”是关键安全阀
+- 如何用中午与下班前两个检查点，持续复利效率
+
+适合学生和上班族，尤其是每天重复性工作较多、想提效但不想走复杂路线的人。]]></description>
       <pubDate>Sat, 07 Mar 2026 12:46:00 GMT</pubDate>
       <guid isPermaLink="false">ep002-half-automation-workday</guid>
       <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep002-half-automation-workday.mp3" length="4731342" type="audio/mpeg" />
@@ -51,7 +83,27 @@
 
     <item>
       <title>5分钟懂 OpenClaw：到今天你最该知道的10件事</title>
-      <description>这期用 5 分钟讲清楚 OpenClaw 到目前最重要的 10 件事。</description>
+      <description><![CDATA[这期用 5 分钟讲清楚 OpenClaw 到目前最重要的 10 件事：
+它和普通聊天工具的区别、如何设定“先审后发”的协作规则，以及学生和上班族最实用的落地方式。
+
+适合你如果：
+- 想快速上手 OpenClaw
+- 不想读很长文档
+- 希望把日常重复任务做成稳定工作流
+
+这期你会听到：
+1. OpenClaw 不只是聊天，而是可执行助手
+2. 为什么它能把任务串起来
+3. 如何建立长期协作节奏
+4. 记忆分层怎么做才不乱
+5. 技能系统如何放大效率
+6. 为什么“先审后发”很关键
+7. 浏览器与外部服务如何节省重复操作
+8. 子代理在复杂任务中的作用
+9. 先有规则再有速度
+10. 学生和上班族的落地用法
+
+如果你想从今天就开始，先选一个每天重复的小任务，连续跑一周，你会看到明显差距。]]></description>
       <pubDate>Sat, 07 Mar 2026 12:24:00 GMT</pubDate>
       <guid isPermaLink="false">ep001-openclaw-10-things</guid>
       <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep001-openclaw-10-things.mp3" length="4469699" type="audio/mpeg" />
