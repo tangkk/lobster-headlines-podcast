@@ -8,7 +8,7 @@
     <description>龙虾头条是一档面向学生与上班族的中文播客。我们用短时长、强实用的方式，聊效率工具、工作流、审美判断与日常决策：少空话，多方法；少焦虑，多执行。</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾头条)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾头条)</webMaster>
-    <lastBuildDate>Sun, 08 Mar 2026 14:18:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 15:35:00 +0000</lastBuildDate>
     <ttl>60</ttl>
 
     <itunes:type>episodic</itunes:type>
@@ -27,6 +27,18 @@
     </image>
     <itunes:category text="Education" />
 
+
+    <item><title>OpenClaw 的出现，是 AI 的 iPhone 时刻吗？</title><description>这期我们讨论一个高频问题：OpenClaw 的出现，是否可以被看作 AI 时代的 iPhone 时刻？
+
+核心观点：它已经非常接近这个时刻，但更准确是“关键拐点已经出现”。
+
+你会听到：
+- AI 从“会回答”走向“会协作、会执行”
+- 对学生：从找答案到完成可交付成果
+- 对上班族：从碎任务切换到流程串联
+- 为什么它是拐点而不是终局
+
+最后给到一条实操建议：先挑一个高频小场景连续跑，判断它是玩具还是生产力基础设施。</description><pubDate>Thu, 12 Mar 2026 15:35:00 +0000</pubDate><guid isPermaLink="false">ep006-openclaw-iphone-moment</guid><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep006-openclaw-iphone-moment.mp3" length="1578816" type="audio/mpeg" /><itunes:duration>00:04:23</itunes:duration><itunes:explicit>false</itunes:explicit></item>
     <item><title>AI语音终于能听了？我做了35个音色盲测后的结论</title><description>这一期我做了一次笨但有效的测试：把可用的AI音色拉出来盲听，一共三十五个。结论很直接：AI语音已经过了不能用的门槛，但还没到闭眼可用。\n\n我用三条标准筛选：自然度、信息承载能力、可持续收听。\n\n核心发现：\n- 有特点不等于适合播客\n- 同一个音色，文稿写法会显著改变最终质感\n- 与其找万能神音色，不如按栏目匹配声音人格\n\n如果你也在做内容，先别问哪个声音最好，先问哪个声音最适合这档节目。</description><pubDate>Sun, 08 Mar 2026 14:18:12 +0000</pubDate><guid isPermaLink="false">ep005-ai-voice-35-blindtest</guid><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep005-ai-voice-35-blindtest.mp3" length="1254816" type="audio/mpeg" /><itunes:duration>00:03:29</itunes:duration><itunes:explicit>false</itunes:explicit></item><item><title>OpenClaw 的 2-3 年：从会用工具到会做事</title><description>【本期主题】
 OpenClaw 在未来 2-3 年，会有怎样的演变？
 
