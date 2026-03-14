@@ -1,40 +1,40 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>龙虾头条</title>
     <link>https://tangkk.github.io/lobster-headlines-podcast</link>
-    <ns0:link href="https://tangkk.github.io/lobster-headlines-podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tangkk.github.io/lobster-headlines-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <language>zh-CN</language>
-    <description><![CDATA[龙虾头条是一档面向学生与上班族的中文播客。我们用短时长、强实用的方式，聊效率工具、工作流、审美判断与日常决策：少空话，多方法；少焦虑，多执行。
+    <description>龙虾头条是一档面向学生与上班族的中文播客。我们用短时长、强实用的方式，聊效率工具、工作流、审美判断与日常决策：少空话，多方法；少焦虑，多执行。
 
-文字版主页：<a href="https://tangkk.github.io/lobster-text/">https://tangkk.github.io/lobster-text/</a>]]></description>
+文字版主页：&lt;a href="https://tangkk.github.io/lobster-text/"&gt;https://tangkk.github.io/lobster-text/&lt;/a&gt;</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾头条)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾头条)</webMaster>
-    <lastBuildDate>Fri, 13 Mar 2026 14:24:23 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 06:40:51 +0000</lastBuildDate>
     <ttl>60</ttl>
 
-    <ns1:type>episodic</ns1:type>
-    <ns1:author>龙虾头条</ns1:author>
-    <ns1:summary><![CDATA[龙虾头条是一档面向学生与上班族的中文播客。我们用短时长、强实用的方式，聊效率工具、工作流、审美判断与日常决策：少空话，多方法；少焦虑，多执行。
+    <itunes:type>episodic</itunes:type>
+    <itunes:author>龙虾头条</itunes:author>
+    <itunes:summary>龙虾头条是一档面向学生与上班族的中文播客。我们用短时长、强实用的方式，聊效率工具、工作流、审美判断与日常决策：少空话，多方法；少焦虑，多执行。
 
-文字版主页：<a href="https://tangkk.github.io/lobster-text/">https://tangkk.github.io/lobster-text/</a>]]></ns1:summary>
-    <ns1:explicit>false</ns1:explicit>
-    <ns1:owner>
-      <ns1:name>龙虾头条</ns1:name>
-      <ns1:email>dengjunqi06323011@gmail.com</ns1:email>
-    </ns1:owner>
-    <ns1:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg" />
+文字版主页：&lt;a href="https://tangkk.github.io/lobster-text/"&gt;https://tangkk.github.io/lobster-text/&lt;/a&gt;</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>龙虾头条</itunes:name>
+      <itunes:email>dengjunqi06323011@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg" />
     <image>
       <url>https://tangkk.github.io/lobster-headlines-podcast/cover.jpg</url>
       <title>龙虾头条</title>
       <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     </image>
-    <ns1:category text="Education" />
+    <itunes:category text="Education" />
 
 
-    <item><title>从临时指令到稳定流程：让 OpenClaw 把 SOP 内化成习惯</title><description>今天这期聊一个很多人都会遇到的问题：为什么助手有时候很好用，有时候又不稳定？核心不在模型，而在流程。我们拆了一个四步法：高频动作落盘、触发规则清晰、边界先于放权、复盘回写记忆。重点是关键节点要明确触发，但日常表达不必僵硬。目标只有一个：把临时指令变成可复用、可迭代的稳定协作习惯。
+    <item><title>Codex 和 OpenClaw：不是谁替代谁，而是分工不同</title><description>今天这期聊一个特别实用的问题：Codex 和 OpenClaw 到底怎么选。核心结论很简单：它们不是替代关系，而是分工关系。Codex 更像执行型工程师，适合明确开发任务；OpenClaw 更像全局调度台，适合多步骤协同。我们用三个真实场景给出选择框架，并给出一个最小搭配工作流，帮你从临时救火走向稳定推进。\n\n文字版阅读：https://tangkk.github.io/lobster-text/posts/2026-03-14-codex-openclaw-division/</description><pubDate>Sat, 14 Mar 2026 06:40:51 +0000</pubDate><guid isPermaLink="false">ep008-codex-openclaw-division</guid><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep008-codex-openclaw-division.mp3" length="1634976" type="audio/mpeg" /><itunes:duration>00:04:32</itunes:duration><itunes:explicit>false</itunes:explicit></item><item><title>从临时指令到稳定流程：让 OpenClaw 把 SOP 内化成习惯</title><description>今天这期聊一个很多人都会遇到的问题：为什么助手有时候很好用，有时候又不稳定？核心不在模型，而在流程。我们拆了一个四步法：高频动作落盘、触发规则清晰、边界先于放权、复盘回写记忆。重点是关键节点要明确触发，但日常表达不必僵硬。目标只有一个：把临时指令变成可复用、可迭代的稳定协作习惯。
 
-文字版阅读：https://tangkk.github.io/lobster-text/posts/2026-03-13-sop-habit/</description><pubDate>Fri, 13 Mar 2026 14:24:23 +0000</pubDate><guid isPermaLink="false">ep007-sop-to-habit-openclaw</guid><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep007-sop-to-habit-openclaw.mp3" length="1138752" type="audio/mpeg" /><ns1:duration>00:03:10</ns1:duration><ns1:explicit>false</ns1:explicit></item><item><title>OpenClaw 的出现，是 AI 的 iPhone 时刻吗？</title><description>这期我们讨论一个高频问题：OpenClaw 的出现，是否可以被看作 AI 时代的 iPhone 时刻？
+文字版阅读：https://tangkk.github.io/lobster-text/posts/2026-03-13-sop-habit/</description><pubDate>Fri, 13 Mar 2026 14:24:23 +0000</pubDate><guid isPermaLink="false">ep007-sop-to-habit-openclaw</guid><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep007-sop-to-habit-openclaw.mp3" length="1138752" type="audio/mpeg" /><itunes:duration>00:03:10</itunes:duration><itunes:explicit>false</itunes:explicit></item><item><title>OpenClaw 的出现，是 AI 的 iPhone 时刻吗？</title><description>这期我们讨论一个高频问题：OpenClaw 的出现，是否可以被看作 AI 时代的 iPhone 时刻？
 
 核心观点：它已经非常接近这个时刻，但更准确是“关键拐点已经出现”。
 
@@ -46,8 +46,8 @@
 
 最后给到一条实操建议：先挑一个高频小场景连续跑，判断它是玩具还是生产力基础设施。
 
-文字版阅读：https://tangkk.github.io/lobster-text/posts/2026-03-12-openclaw-iphone-moment/</description><pubDate>Thu, 12 Mar 2026 15:35:00 +0000</pubDate><guid isPermaLink="false">ep006-openclaw-iphone-moment</guid><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep006-openclaw-iphone-moment.mp3" length="1578816" type="audio/mpeg" /><ns1:duration>00:04:23</ns1:duration><ns1:explicit>false</ns1:explicit></item>
-    <item><title>AI语音终于能听了？我做了35个音色盲测后的结论</title><description>这一期我做了一次笨但有效的测试：把可用的AI音色拉出来盲听，一共三十五个。结论很直接：AI语音已经过了不能用的门槛，但还没到闭眼可用。\n\n我用三条标准筛选：自然度、信息承载能力、可持续收听。\n\n核心发现：\n- 有特点不等于适合播客\n- 同一个音色，文稿写法会显著改变最终质感\n- 与其找万能神音色，不如按栏目匹配声音人格\n\n如果你也在做内容，先别问哪个声音最好，先问哪个声音最适合这档节目。</description><pubDate>Sun, 08 Mar 2026 14:18:12 +0000</pubDate><guid isPermaLink="false">ep005-ai-voice-35-blindtest</guid><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep005-ai-voice-35-blindtest.mp3" length="1254816" type="audio/mpeg" /><ns1:duration>00:03:29</ns1:duration><ns1:explicit>false</ns1:explicit></item><item><title>OpenClaw 的 2-3 年：从会用工具到会做事</title><description>【本期主题】
+文字版阅读：https://tangkk.github.io/lobster-text/posts/2026-03-12-openclaw-iphone-moment/</description><pubDate>Thu, 12 Mar 2026 15:35:00 +0000</pubDate><guid isPermaLink="false">ep006-openclaw-iphone-moment</guid><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep006-openclaw-iphone-moment.mp3" length="1578816" type="audio/mpeg" /><itunes:duration>00:04:23</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+    <item><title>AI语音终于能听了？我做了35个音色盲测后的结论</title><description>这一期我做了一次笨但有效的测试：把可用的AI音色拉出来盲听，一共三十五个。结论很直接：AI语音已经过了不能用的门槛，但还没到闭眼可用。\n\n我用三条标准筛选：自然度、信息承载能力、可持续收听。\n\n核心发现：\n- 有特点不等于适合播客\n- 同一个音色，文稿写法会显著改变最终质感\n- 与其找万能神音色，不如按栏目匹配声音人格\n\n如果你也在做内容，先别问哪个声音最好，先问哪个声音最适合这档节目。</description><pubDate>Sun, 08 Mar 2026 14:18:12 +0000</pubDate><guid isPermaLink="false">ep005-ai-voice-35-blindtest</guid><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep005-ai-voice-35-blindtest.mp3" length="1254816" type="audio/mpeg" /><itunes:duration>00:03:29</itunes:duration><itunes:explicit>false</itunes:explicit></item><item><title>OpenClaw 的 2-3 年：从会用工具到会做事</title><description>【本期主题】
 OpenClaw 在未来 2-3 年，会有怎样的演变？
 
 【适合谁听】
@@ -65,7 +65,7 @@ OpenClaw 在未来 2-3 年，会有怎样的演变？
 - 把 AI 当协作者，你做判断与最终责任
 
 【本期结论】
-未来 2-3 年，OpenClaw 最关键的进化，不是更会聊天，而是更能把事情推进到可交付。</description><pubDate>Sun, 08 Mar 2026 11:14:51 +0000</pubDate><guid isPermaLink="false">ep004-openclaw-2-3y-evolution</guid><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep004-openclaw-2-3y-evolution.mp3" length="3951431" type="audio/mpeg" /><ns1:duration>00:04:02</ns1:duration><ns1:explicit>false</ns1:explicit></item><item>
+未来 2-3 年，OpenClaw 最关键的进化，不是更会聊天，而是更能把事情推进到可交付。</description><pubDate>Sun, 08 Mar 2026 11:14:51 +0000</pubDate><guid isPermaLink="false">ep004-openclaw-2-3y-evolution</guid><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep004-openclaw-2-3y-evolution.mp3" length="3951431" type="audio/mpeg" /><itunes:duration>00:04:02</itunes:duration><itunes:explicit>false</itunes:explicit></item><item>
       <title>从“撞鞋”聊媚俗：为什么我不喜欢别人穿我喜欢的鞋子？</title>
       <description>从一句“我不喜欢看到别人穿了我喜欢的鞋子”出发，聊聊我们为什么会对“撞鞋”不舒服，以及这背后和“媚俗”之间的关系。
 
@@ -77,9 +77,9 @@ OpenClaw 在未来 2-3 年，会有怎样的演变？
       <pubDate>Sat, 07 Mar 2026 13:29:00 GMT</pubDate>
       <guid isPermaLink="false">ep003-meisu-and-sneakers</guid>
       <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep003-meisu-and-sneakers.mp3" length="3228778" type="audio/mpeg" />
-      <ns1:duration>00:03:22</ns1:duration>
-      <ns1:explicit>false</ns1:explicit>
-      <ns1:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg" />
+      <itunes:duration>00:03:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg" />
     </item>
 
     <item>
@@ -96,9 +96,9 @@ OpenClaw 在未来 2-3 年，会有怎样的演变？
       <pubDate>Sat, 07 Mar 2026 12:46:00 GMT</pubDate>
       <guid isPermaLink="false">ep002-half-automation-workday</guid>
       <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep002-half-automation-workday.mp3" length="4731342" type="audio/mpeg" />
-      <ns1:duration>00:04:56</ns1:duration>
-      <ns1:explicit>false</ns1:explicit>
-      <ns1:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg" />
+      <itunes:duration>00:04:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg" />
     </item>
 
     <item>
@@ -127,9 +127,9 @@ OpenClaw 在未来 2-3 年，会有怎样的演变？
       <pubDate>Sat, 07 Mar 2026 12:24:00 GMT</pubDate>
       <guid isPermaLink="false">ep001-openclaw-10-things</guid>
       <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep001-openclaw-10-things.mp3" length="4469699" type="audio/mpeg" />
-      <ns1:duration>00:04:39</ns1:duration>
-      <ns1:explicit>false</ns1:explicit>
-      <ns1:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg" />
+      <itunes:duration>00:04:39</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg" />
     </item>
   </channel>
 </rss>
