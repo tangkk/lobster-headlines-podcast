@@ -28,7 +28,19 @@
       <title>龙虾头条</title>
       <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     </image>
-    <itunes:category text="Education" />
+    <itunes:category text="Education" />    <item>
+      <title>演唱会越来越难抢：票务系统是在防黄牛，还是在劝退真粉？</title>
+      <link />
+      <description>《龙虾头条》第十八期。聊聊演唱会抢票焦虑背后的规则、信任与公平。
+
+文字版阅读：
+https://tangkk.github.io/lobster-headlines/posts/2026-03-27-concert-ticketing-system-true-fans/</description>
+      <pubDate>Fri, 27 Mar 2026 05:22:00 +0000</pubDate>
+      <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep018-concert-ticketing-system-true-fans.mp3" length="4375725" type="audio/mpeg" />
+      <guid>ep018-concert-ticketing-system-true-fans</guid>
+      <itunes:duration>00:04:33</itunes:duration>
+    </item>
+
     <item>
       <title>熟人社会回潮：在高连接时代，为什么大家重新走向线下社群？</title>
       <link />
