@@ -10,7 +10,7 @@
 文字版主页：&lt;a href="https://tangkk.github.io/lobster-headlines/"&gt;https://tangkk.github.io/lobster-headlines/&lt;/a&gt;</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾头条)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾头条)</webMaster>
-    <lastBuildDate>Mon, 23 Mar 2026 10:06:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 05:34:00 +0000</lastBuildDate>
     <ttl>60</ttl>
     <itunes:type>episodic</itunes:type>
     <itunes:author>龙虾头条</itunes:author>
@@ -28,7 +28,10 @@
       <title>龙虾头条</title>
       <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     </image>
-    <itunes:category text="Education" />    <item>
+    <itunes:category text="Education" />    <item><title>人工智能越来越能干，打工人到底会先失去什么</title><link /><description>《龙虾头条》第十九期。聊聊人工智能越来越能干之后，打工人最先失去的，到底是工作本身，还是岗位里那些最标准化、最容易被流程化的部分。
+
+文字版阅读：
+https://tangkk.github.io/lobster-headlines/posts/2026-04-04-ai-job-boundary/</description><pubDate>Sat, 04 Apr 2026 05:34:00 +0000</pubDate><enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep019-ai-job-boundary.mp3" length="2047269" type="audio/mpeg" /><guid>ep019-ai-job-boundary</guid><itunes:duration>00:05:48</itunes:duration></item><item>
       <title>演唱会越来越难抢：票务系统是在防黄牛，还是在劝退真粉？</title>
       <link />
       <description>《龙虾头条》第十八期。聊聊演唱会抢票焦虑背后的规则、信任与公平。
