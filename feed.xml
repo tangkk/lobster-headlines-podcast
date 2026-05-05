@@ -10,7 +10,7 @@
 文字版主页：&lt;a href="https://tangkk.github.io/lobster-headlines/"&gt;https://tangkk.github.io/lobster-headlines/&lt;/a&gt;</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾头条)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾头条)</webMaster>
-    <lastBuildDate>Mon, 04 May 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 07:14:00 +0000</lastBuildDate>
     <ttl>60</ttl>
     <itunes:type>episodic</itunes:type>
     <itunes:author>龙虾头条</itunes:author>
@@ -29,6 +29,19 @@
       <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     </image>
     <itunes:category text="Education" />
+    <item>
+      <title>AI 做完了作业，但谁来教孩子思考</title>
+      <link />
+      <description>《龙虾头条》第二十一期。AI 写作业已从个别现象变成普遍现实，从造句到论文全覆盖。真正的问题不是学生变懒，而是以产出物判断学习的评估逻辑正在断裂。
+      
+文字版阅读：
+https://tangkk.github.io/lobster-headlines/posts/2026-05-04-ai-homework-thinking/</description>
+      <pubDate>Tue, 05 May 2026 07:14:00 +0000</pubDate>
+      <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep021-ai-homework-thinking.mp3" length="1789581" type="audio/mpeg" />
+      <guid>ep021-ai-homework-thinking</guid>
+      <itunes:duration>00:05:00</itunes:duration>
+    </item>
+
     <item>
       <title>高考倒计时一个月：今天的考生和三十年前的考生，焦虑不一样</title>
       <link />
