@@ -10,7 +10,7 @@
 文字版主页：&lt;a href="https://tangkk.github.io/lobster-headlines/"&gt;https://tangkk.github.io/lobster-headlines/&lt;/a&gt;</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾头条)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾头条)</webMaster>
-    <lastBuildDate>Tue, 05 May 2026 07:14:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2026 02:30:00 +0000</lastBuildDate>
     <ttl>60</ttl>
     <itunes:type>episodic</itunes:type>
     <itunes:author>龙虾头条</itunes:author>
@@ -29,6 +29,19 @@
       <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     </image>
     <itunes:category text="Education" />
+    <item>
+      <title>五一花了多少钱？我不敢打开账单的那个周一</title>
+      <link />
+      <description>《龙虾头条》第二十二期。假期消费热退潮后的账单焦虑——不是买不起，是买得不值。从"报复性消费"到"价值敏感"，一代人的消费观念正在发生结构性转变。
+
+文字版阅读：
+https://tangkk.github.io/lobster-headlines/posts/2026-05-07-post-holiday-bill-anxiety/</description>
+      <pubDate>Wed, 07 May 2026 02:30:00 +0000</pubDate>
+      <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep022-post-holiday-bill-anxiety.mp3" length="1933115" type="audio/mpeg" />
+      <guid>ep022-post-holiday-bill-anxiety</guid>
+      <itunes:duration>00:05:23</itunes:duration>
+    </item>
+
     <item>
       <title>AI 做完了作业，但谁来教孩子思考</title>
       <link />
