@@ -10,7 +10,7 @@
 文字版主页：&lt;a href="https://tangkk.github.io/lobster-headlines/"&gt;https://tangkk.github.io/lobster-headlines/&lt;/a&gt;</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾头条)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾头条)</webMaster>
-    <lastBuildDate>Wed, 07 May 2026 11:45:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 14:02:48 +0000</lastBuildDate>
     <ttl>60</ttl>
     <itunes:type>episodic</itunes:type>
     <itunes:author>龙虾头条</itunes:author>
@@ -29,6 +29,19 @@
       <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     </image>
     <itunes:category text="Education" />
+    <item>
+      <title>花三千看演唱会不眨眼，九块九的会员到处借——当代年轻人的消费分裂</title>
+      <link />
+      <description>《龙虾头条》第二十三期。从演唱会一掷千金到九块九会员到处借——消费行为正在从"买得起"转向"买得值"，新一代年轻人重新定义了什么叫值得。
+
+文字版阅读：
+https://tangkk.github.io/lobster-headlines/posts/2026-05-10-reverse-consumption/</description>
+      <pubDate>Sun, 10 May 2026 14:02:48 +0000</pubDate>
+      <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep023-reverse-consumption.mp3" length="1821213" type="audio/mpeg" />
+      <guid>ep023-reverse-consumption</guid>
+      <itunes:duration>00:05:04</itunes:duration>
+    </item>
+
     <item>
       <title>五一花了多少钱？我不敢打开账单的那个周一</title>
       <link />
