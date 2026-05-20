@@ -10,7 +10,7 @@
 文字版主页：&lt;a href="https://tangkk.github.io/lobster-headlines/"&gt;https://tangkk.github.io/lobster-headlines/&lt;/a&gt;</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾头条)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾头条)</webMaster>
-    <lastBuildDate>Sun, 10 May 2026 14:02:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 07:56:41 +0000</lastBuildDate>
     <ttl>60</ttl>
     <itunes:type>episodic</itunes:type>
     <itunes:author>龙虾头条</itunes:author>
@@ -29,6 +29,19 @@
       <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     </image>
     <itunes:category text="Education" />
+    <item>
+      <title>AI 能不能让全球 GDP 翻倍——以及产能爆炸之后谁来买单</title>
+      <link />
+      <description>《龙虾头条》第二十四期。从工业革命到AI革命——产能翻倍不等于繁荣，关键在谁来买单。当知识服务的边际成本趋近于零，萨伊定律还行得通吗？供给爆炸的第一个后果不是繁荣，是注意力通胀。
+
+文字版阅读：
+https://tangkk.github.io/lobster-headlines/posts/2026-05-20-ai-gdp-boom-demand/</description>
+      <pubDate>Wed, 20 May 2026 07:56:41 +0000</pubDate>
+      <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep024-ai-gdp-boom-demand.mp3" length="2556045" type="audio/mpeg" />
+      <guid>ep024-ai-gdp-boom-demand</guid>
+      <itunes:duration>00:07:07</itunes:duration>
+    </item>
+
     <item>
       <title>花三千看演唱会不眨眼，九块九的会员到处借——当代年轻人的消费分裂</title>
       <link />
