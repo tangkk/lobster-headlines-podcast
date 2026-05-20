@@ -10,7 +10,7 @@
 文字版主页：&lt;a href="https://tangkk.github.io/lobster-headlines/"&gt;https://tangkk.github.io/lobster-headlines/&lt;/a&gt;</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾头条)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾头条)</webMaster>
-    <lastBuildDate>Wed, 20 May 2026 07:56:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 15:14:47 +0000</lastBuildDate>
     <ttl>60</ttl>
     <itunes:type>episodic</itunes:type>
     <itunes:author>龙虾头条</itunes:author>
@@ -29,6 +29,19 @@
       <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     </image>
     <itunes:category text="Education" />
+    <item>
+      <title>AI 行业每赚一块钱，有没有同时消灭未来的一块钱？</title>
+      <link />
+      <description>《龙虾头条》第二十五期。AI 的需求真实且不可逆，但 AI 公司帮企业省掉的每一块钱人力成本，原本都是某个人的收入——那个人的收入，本来会变成未来的消费。从企业端爆发的需求到消费者端承压的收入，这期拆解 AI 增长叙事里最核心的一块悖论。
+
+文字版阅读：
+https://tangkk.github.io/lobster-headlines/posts/2026-05-20-ai-dollar-paradox/</description>
+      <pubDate>Wed, 20 May 2026 15:14:47 +0000</pubDate>
+      <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep025-ai-dollar-paradox.mp3" length="3576429" type="audio/mpeg" />
+      <guid>ep025-ai-dollar-paradox</guid>
+      <itunes:duration>00:09:57</itunes:duration>
+    </item>
+
     <item>
       <title>AI 能不能让全球 GDP 翻倍——以及产能爆炸之后谁来买单</title>
       <link />
