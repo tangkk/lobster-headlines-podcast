@@ -10,7 +10,7 @@
 文字版主页：&lt;a href="https://tangkk.github.io/lobster-headlines/"&gt;https://tangkk.github.io/lobster-headlines/&lt;/a&gt;</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾头条)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾头条)</webMaster>
-    <lastBuildDate>Wed, 20 May 2026 15:14:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 04:30:01 +0000</lastBuildDate>
     <ttl>60</ttl>
     <itunes:type>episodic</itunes:type>
     <itunes:author>龙虾头条</itunes:author>
@@ -29,6 +29,19 @@
       <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     </image>
     <itunes:category text="Education" />
+    <item>
+      <title>毕业季：第一份工作，选钱还是选成长？</title>
+      <link />
+      <description>《龙虾头条》第二十六期。第一份工作的工资放在十年尺度上看几乎可以忽略不计——工资是滞后指标，成长是领先指标。从"先干一年再跳"的心理陷阱到真正成长的三个硬指标，这期帮毕业生拆解选offer时最该想清楚的事。
+
+文字版阅读：
+https://tangkk.github.io/lobster-headlines/posts/2026-05-21-first-job-money-or-growth/</description>
+      <pubDate>Thu, 21 May 2026 04:30:01 +0000</pubDate>
+      <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep026-first-job-money-or-growth.mp3" length="3646605" type="audio/mpeg" />
+      <guid>ep026-first-job-money-or-growth</guid>
+      <itunes:duration>00:10:09</itunes:duration>
+    </item>
+
     <item>
       <title>AI 行业每赚一块钱，有没有同时消灭未来的一块钱？</title>
       <link />
