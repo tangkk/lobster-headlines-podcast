@@ -10,7 +10,7 @@
 文字版主页：&lt;a href="https://tangkk.github.io/lobster-headlines/"&gt;https://tangkk.github.io/lobster-headlines/&lt;/a&gt;</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾头条)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾头条)</webMaster>
-    <lastBuildDate>Thu, 21 May 2026 04:30:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 04:12:34 +0000</lastBuildDate>
     <ttl>60</ttl>
     <itunes:type>episodic</itunes:type>
     <itunes:author>龙虾头条</itunes:author>
@@ -29,6 +29,19 @@
       <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     </image>
     <itunes:category text="Education" />
+    <item>
+      <title>GPT-5 时代到来前，普通人最该补的不是编程，是「提问能力」</title>
+      <link />
+      <description>《龙虾头条》第二十七期。AI 时代，答案越来越便宜，但问题越来越贵。这一期聊的不是 prompt engineering，而是更深一层的能力——你能不能问出一个真正对的问题。从改简历、提效到人生焦虑，好问题和表面问题的差距，决定了你从 AI 那里拿走的是敷衍还是洞见。
+
+文字版阅读：
+https://tangkk.github.io/lobster-headlines/posts/2026-05-22-asking-better-questions/</description>
+      <pubDate>Fri, 22 May 2026 04:12:34 +0000</pubDate>
+      <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep027-asking-better-questions.mp3" length="9492141" type="audio/mpeg" />
+      <guid>ep027-asking-better-questions</guid>
+      <itunes:duration>00:09:53</itunes:duration>
+    </item>
+
     <item>
       <title>毕业季：第一份工作，选钱还是选成长？</title>
       <link />
