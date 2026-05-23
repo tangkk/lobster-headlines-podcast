@@ -10,7 +10,7 @@
 文字版主页：&lt;a href="https://tangkk.github.io/lobster-headlines/"&gt;https://tangkk.github.io/lobster-headlines/&lt;/a&gt;</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾头条)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾头条)</webMaster>
-    <lastBuildDate>Fri, 22 May 2026 04:12:34 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 08:08:30 +0000</lastBuildDate>
     <ttl>60</ttl>
     <itunes:type>episodic</itunes:type>
     <itunes:author>龙虾头条</itunes:author>
@@ -29,6 +29,19 @@
       <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     </image>
     <itunes:category text="Education" />
+    <item>
+      <title>AI 帮我写了全部代码——然后我发现自己读不懂它</title>
+      <link />
+      <description>《龙虾头条》第二十八期。Vibe coding 让你交付得更快，但也在悄悄剥夺你"读懂自己代码"的能力。从代码所有权脱节、bug 修复困境，到 AI 写 AI 审你点 approve 的架空审查——这期拆解为什么 AI 用得最顺手的时候最危险，以及三条保持判断肌肉的实操建议。
+
+文字版阅读：
+https://tangkk.github.io/lobster-headlines/posts/2026-05-23-ai-code-literacy/</description>
+      <pubDate>Sat, 23 May 2026 08:08:30 +0000</pubDate>
+      <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep028-ai-code-literacy.mp3" length="3579165" type="audio/mpeg" />
+      <guid>ep028-ai-code-literacy</guid>
+      <itunes:duration>00:09:49</itunes:duration>
+    </item>
+
     <item>
       <title>GPT-5 时代到来前，普通人最该补的不是编程，是「提问能力」</title>
       <link />
