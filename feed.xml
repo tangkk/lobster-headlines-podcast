@@ -10,7 +10,7 @@
 文字版主页：&lt;a href="https://tangkk.github.io/lobster-headlines/"&gt;https://tangkk.github.io/lobster-headlines/&lt;/a&gt;</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾头条)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾头条)</webMaster>
-    <lastBuildDate>Sat, 23 May 2026 08:08:30 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 09:50:30 +0000</lastBuildDate>
     <ttl>60</ttl>
     <itunes:type>episodic</itunes:type>
     <itunes:author>龙虾头条</itunes:author>
@@ -29,6 +29,19 @@
       <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     </image>
     <itunes:category text="Education" />
+    <item>
+      <title>高考之后，人生的容错率比你想的大得多</title>
+      <link />
+      <description>《龙虾头条》第二十九期。距离高考不到十天，这一期不是谈焦虑，而是谈容错。通过两个真实故事——考砸后靠自学成为程序员的，和考好名校却辞职开咖啡馆的——拆解为什么高考的容错率远比社会渲染的大。从企业招聘标准的变化到学习方式的根本切换，给应届考生和过来人一份真实的宽慰。
+
+文字版阅读：
+https://tangkk.github.io/lobster-headlines/posts/2026-05-26-gaokao-error-tolerance/</description>
+      <pubDate>Tue, 26 May 2026 09:50:30 +0000</pubDate>
+      <enclosure url="https://tangkk.github.io/lobster-headlines-podcast/audio/ep029-gaokao-error-tolerance.mp3" length="3464877" type="audio/mpeg" />
+      <guid>ep029-gaokao-error-tolerance</guid>
+      <itunes:duration>00:09:39</itunes:duration>
+    </item>
+
     <item>
       <title>AI 帮我写了全部代码——然后我发现自己读不懂它</title>
       <link />
