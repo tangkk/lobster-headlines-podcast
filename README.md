@@ -74,3 +74,7 @@ README 是当前 **editorial / TTS / workflow source of truth**。旧 OpenClaw S
 - `scripts/xfyun-tools/xfyun_segmented_run.py` — 正式长文 TTS
 - `scripts/xfyun-tools/xfyun_super_official_run.py` — 单段/短样片/排障
 - `scripts/publish_episode.py` — 发布工具
+
+## One-pass cross-podcast checklist
+
+每期开工前、正式发布前都必须同时检查 [`ONE_PASS_PRODUCTION.md`](ONE_PASS_PRODUCTION.md)。它记录四档实跑后统一的 Preview 去重、voice/profile、approved artifact、重制单集、Hugo future-date、Pages VERIFY 与回滚规则；与本 README 冲突时采用更严格的 fail-closed 规则。
