@@ -12,13 +12,13 @@
 
 ## Production Gates
 
-**IDEA → WRITE → FREEZE → PREFLIGHT → BUILD → LISTEN → PUBLISH → VERIFY**
+**IDEA → WRITE → FREEZE → PREFLIGHT → Draft PR → TTS PREVIEW → ARTIFACT → LISTEN → AUDIO QA → APPROVE ARTIFACT → MERGE → PUBLISH APPROVED ARTIFACT → VERIFY**
 
 - **IDEA**：对话中形成 Episode Brief：题目、为什么现在值得讲、核心判断、第二层含义、关键事实/案例、普通人视角。
 - **WRITE / FREEZE**：在对话中写 canonical 稿、标题和 shownotes。用户明确“定稿”前不进入 GitHub 发布流程。
 - **PREFLIGHT**：Editorial / Facts / TTS / Metadata QA。episode number 必须从现有 feed 推导；guid、音频文件名、文章音频链接必须一致。
-- **BUILD / LISTEN**：生成与发布分离。先生成试听，检查发音、数字、断句、句间/段间停顿和整体节奏。
-- **PUBLISH / VERIFY**：用户明确确认发布后才更新 R2、Podcast RSS 和文字版；随后验证线上音频、RSS、文章和 metadata 一致。
+- **Draft PR / TTS PREVIEW / ARTIFACT / LISTEN**：Draft PR 是 staging boundary；preview 只生成试听 artifact，不上传 R2、不修改 RSS、不发布。Audio QA 批准的是一个具体 artifact。
+- **MERGE / PUBLISH APPROVED ARTIFACT / VERIFY**：合并后正式发布优先直接复用已经试听批准的同一音频 artifact，不无必要重新 TTS。发布仍需用户明确确认；随后验证线上音频、RSS、文章和 metadata 一致。
 
 需要用户判断的核心节点只有：**选题、定稿、正式发布。**
 
@@ -28,6 +28,7 @@
 
 - 短句优先，一句话尽量一个主要意思；复杂句主动拆开。
 - 朗读节奏是正文的一部分。自然使用逗号、句号和分段；少用括号、分号、连续破折号，不用奇怪标点 hack TTS。
+- 空行 / 自然段只表示真正需要明显长停顿或语义转场的位置；仅用于视觉强调的断行不得进入 canonical。
 - 数字、金额、百分比、年份、英文、缩写、品牌和人名在定稿前处理成自然、明确、可正确朗读的形式。
 - URL、Markdown 元数据、脚注不进入需要朗读的正文。
 - 不为了机器牺牲可读性：目标是同一份文字既好读，也像真人自然说出来。
@@ -52,9 +53,19 @@
 
 ## Publishing Guardrails
 
-每期至少有标题、shownotes、canonical 正文和音频。最终音频文件名不得包含内部音色名。RSS description 使用真实换行，禁止字面量 `\\n`。发布后留下轻量记录：`canonical ✓ tts ✓ audio QA ✓ R2 ✓ podcast RSS ✓ text RSS ✓ verified ✓`。
+每期至少有标题、shownotes、canonical 正文和音频。最终音频文件名不得包含内部音色名。RSS description 使用真实换行，禁止字面量 `\\n`。
 
-长期目标是 episode metadata 成为 single source of truth，避免 Podcast repo 与文字 repo 手工维护两套 metadata。
+发布必须 idempotent / fail-closed：发布前检查 guid 未存在、episode number 是 feed 推导的下一期、canonical 与 approved artifact 存在、R2 key / 文件名 / 文章音频链接一致、Secrets 完整。重复 guid 或关键输入不一致时直接停止，禁止静默继续或盲目 rerun。
+
+**任何有副作用的发布动作之前，必须先对 approved artifact 做完整本地 metadata validation。** 至少验证最终 MP3 存在且非空、真实时长大于零、预计 enclosure length 大于零，并从该 approved MP3 本身生成最终 duration。校验失败时，允许的结果只能是“未发布”；R2 上传与 RSS mutation 必须发生在这些检查全部通过之后，避免半发布状态。
+
+时长使用 `ffprobe` 读取。Shell 实现保持简单和可审计：避免使用 `SECONDS` 等特殊变量名，使用 `AUDIO_SECONDS` 等明确变量；也避免在 `$()` command substitution 内嵌 heredoc 这类易受 YAML / shell 拼接影响的结构，优先使用单行 Python 或独立脚本完成格式化。发布脚本自身的语法 / metadata 错误必须在上传 R2 或写 RSS 前暴露。
+
+发布后独立 VERIFY，不能以“workflow success”或“音频上传成功”代替发布成功。至少核对：R2 对象、HEAD / Range 可用性、Podcast RSS 最新 item、guid、enclosure URL / length、`itunes:duration`、description 真实换行、文字版 URL / RSS / 页面。
+
+发布后留下轻量记录：`canonical ✓ tts ✓ audio QA ✓ approved artifact ✓ R2 ✓ podcast RSS ✓ text RSS ✓ verified ✓`。
+
+长期目标是 episode metadata 成为 single source of truth，避免 Podcast repo 与文字 repo 手工维护两套 metadata。Preview workflow 可以长期保留；Publish 应使用通用、受控的发布入口，不为每一期长期保留 episode-specific workflow；临时一次性 workflow 用完应清理。
 
 README 是当前 **editorial / TTS / workflow source of truth**。旧 OpenClaw SOP 只作为历史参考；其中本机绝对路径、旧 rss-hosting/audio 架构、消息平台交付规则和逐段进度回报不再属于现行标准。
 
