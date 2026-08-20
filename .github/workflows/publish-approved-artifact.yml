@@ -31,7 +31,7 @@ jobs:
       - name: Resolve publish request
         id: req
         run: |
-          REQUEST=$(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep -E '^publish/requests/(?!replace-).+\.json$' -P | head -n 1)
+          REQUEST=$(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep '^publish/requests/.*\.json$' | grep -v '^publish/requests/replace-' | head -n 1)
           test -n "$REQUEST" || { echo 'No new-episode publish request'; exit 1; }
           python -m json.tool "$REQUEST" >/dev/null
           for key in run_id artifact_name audio_filename audio_sha256 slug title description article_url prefix; do value=$(jq -r --arg k "$key" '.[$k] // empty' "$REQUEST"); test -n "$value" || { echo "Missing $key"; exit 1; }; echo "$key<<EOF" >> "$GITHUB_OUTPUT"; echo "$value" >> "$GITHUB_OUTPUT"; echo EOF >> "$GITHUB_OUTPUT"; done
