@@ -24,11 +24,9 @@
 
 ### 目标听众
 
-大致面向 25–45 岁、对科技、社会与个人选择感兴趣，但并不希望每天泡在科技新闻里的城市成年人。他们可能关心 AI，但更深层关心的是：我的工作会怎样、应该学什么、钱怎么花、房子是否仍然重要、人与人的关系为什么变化、未来什么值得投入时间。
+大致面向 25–45 岁、对科技、社会与个人选择感兴趣，但并不希望每天泡在科技新闻里的城市成年人。
 
 ### 选题检查
-
-每一期原则上用以下问题筛选：
 
 1. 这件事最近真的在发生吗？
 2. 它背后有没有一个比新闻本身更大的变化？
@@ -37,59 +35,32 @@
 5. 能不能用具体例子讲清楚，而不是堆概念？
 6. 最后能不能留下一个判断，而不是只做信息汇总？
 
-只有事实和信息、没有第二层含义，容易变成普通新闻；只有观点和人生判断、没有事实基础，又容易变成鸡汤。**最好的《龙虾头条》选题位于“科技 / 社会观察”和“个人生活”的交界处。**
-
-可以把节目的隐性 slogan 理解为：
-
 > **世界正在变，我们聊聊这对你意味着什么。**
 
 ## 内容制作流程（重要）
-
-每一期先在 ChatGPT 对话中完成内容创作，再进入 GitHub 发布流程：
 
 **讨论选题 → 明确核心判断 → 打磨结构与文字 → 用户确认定稿 → 进入 GitHub 流程 → Podcast 与文字版同步发布。**
 
 在用户明确表示“定稿”“可以发布”“进入 GitHub 流程”之前，不应直接修改发布内容或开始发布。Podcast 与文字版是同一期内容的两种输出形态，应保持标题、核心观点和内容语义一致。
 
-这部分 README 同时作为节目长期的 **editorial memory / agent context**：未来 ChatGPT、Codex 或其他 agent 参与选题、写稿或发布时，应先遵循这里记录的节目定位、调性和工作流。
+## TTS Guidelines
+
+- canonical 文字稿首先服务人类阅读，**不为 TTS 牺牲可读性**。
+- TTS transcript 从 canonical text 派生，不反向修改原稿。
+- `scripts/prepare_tts_text.py` 只处理高确定性的格式与朗读转换；不要用复杂规则擅自改写正文。
+- 英文、缩写、品牌和专有名词通过 `scripts/pronunciation.json` 显式管理；遇到读音问题优先更新词典，不污染原稿。
+- 标点承担朗读节奏：短句优先，少用括号、分号和连续破折号。
+- 发布前必须做人耳抽检，重点检查**人名、英文、数字、断句**。
+- 本节目声音应清晰、理性、自然，像在解释一件想明白的事，避免新闻播报腔。
+
+README 同时作为长期 **editorial memory / agent context**；未来 agent 参与选题、写稿、TTS 或发布时应先遵循这里的规则。
 
 ---
 
-## 1) 上传到 GitHub
+## 发布
+
+音频由 `scripts/publish_episode.py` 发布；讯飞 TTS 工具位于 `scripts/xfyun-tools/`。生成语音前可先运行：
+
 ```bash
-cd ~/Downloads/龙虾头条/rss-hosting
-git init
-git add .
-git commit -m "init podcast rss"
-git branch -M main
-git remote add origin git@github.com:YOUR_GITHUB_USERNAME/lobster-headlines-podcast.git
-git push -u origin main
-```
-
-## 2) 开启 GitHub Pages
-- Repo Settings → Pages
-- Source: Deploy from branch
-- Branch: `main` / `/root`
-
-## 3) 替换 feed.xml 里的占位符
-把 `YOUR_GITHUB_USERNAME` 全部改成你的 GitHub 用户名。
-
-## 4) 提交到小宇宙
-RSS 地址：
-`https://YOUR_GITHUB_USERNAME.github.io/lobster-headlines-podcast/feed.xml`
-
-## 5) 新增单集（命令行）
-```bash
-cd ~/Downloads/龙虾头条/rss-hosting
-python3 scripts/publish_episode.py \
-  --base-url "https://YOUR_GITHUB_USERNAME.github.io/lobster-headlines-podcast" \
-  --audio "/path/to/new-episode.mp3" \
-  --slug "ep004-your-slug" \
-  --title "你的标题" \
-  --description "你的 shownotes" \
-  --duration "00:05:00"
-
-git add .
-git commit -m "publish ep004"
-git push
+python3 scripts/prepare_tts_text.py input.md -o /tmp/episode-tts.txt
 ```
