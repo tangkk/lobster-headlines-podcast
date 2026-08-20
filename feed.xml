@@ -10,7 +10,7 @@
 文字版主页：&lt;a href="https://tangkk.github.io/lobster-headlines/"&gt;https://tangkk.github.io/lobster-headlines/&lt;/a&gt;</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾头条)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾头条)</webMaster>
-    <lastBuildDate>Thu, 20 Aug 2026 08:51:32 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 14:20:01 +0000</lastBuildDate>
     <ttl>60</ttl>
     <itunes:type>episodic</itunes:type>
     <itunes:author>龙虾头条</itunes:author>
@@ -29,7 +29,10 @@
       <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     </image>
     <itunes:category text="Education" />
-    <item><title>AI 抢走的第一批工作，可能根本没人被裁</title><description>《龙虾头条》第三十期。企业越来越公开把裁员和人工智能联系起来，但真正更早出现的就业冲击，可能不是 firing，而是 not hiring。宏观失业数据还没有显示大规模 AI 替代，年轻人进入白领职场的入口却可能正在变窄。
+    <item><title>AI 越提高生产力，物价为什么可能反而更高？</title><description>《龙虾头条》第三十一期。AI 的生产力红利可能在未来慢慢兑现，但芯片、数据中心、电力、融资和高技能劳动力的投资需求会先发生。于是短期内，AI 完全可能先推高通胀，再在更晚阶段带来降价。
+
+文字版阅读：
+https://tangkk.github.io/lobster-headlines/posts/2026-08-20-ai-inflation/</description><pubDate>Thu, 20 Aug 2026 14:20:01 +0000</pubDate><guid isPermaLink="false">ep031-ai-inflation</guid><enclosure url="https://pub-e2d65fa7f70240878f2e556592826485.r2.dev/headlines/ep031-ai-inflation.mp3" length="1417485" type="audio/mpeg" /><itunes:duration>00:05:54</itunes:duration><itunes:explicit>false</itunes:explicit></item><item><title>AI 抢走的第一批工作，可能根本没人被裁</title><description>《龙虾头条》第三十期。企业越来越公开把裁员和人工智能联系起来，但真正更早出现的就业冲击，可能不是 firing，而是 not hiring。宏观失业数据还没有显示大规模 AI 替代，年轻人进入白领职场的入口却可能正在变窄。
 
 文字版阅读：
 https://tangkk.github.io/lobster-headlines/posts/2026-08-20-ai-not-hiring/</description><pubDate>Thu, 20 Aug 2026 08:51:32 +0000</pubDate><guid isPermaLink="false">ep030-ai-not-hiring</guid><enclosure url="https://pub-e2d65fa7f70240878f2e556592826485.r2.dev/headlines/ep030-ai-not-hiring.mp3" length="1493229" type="audio/mpeg" /><itunes:duration>00:06:14</itunes:duration><itunes:explicit>false</itunes:explicit></item><item>
