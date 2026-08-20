@@ -33,17 +33,16 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
       - name: Install runtime dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg
+          ffmpeg -version | head -n 1
           python -m pip install --upgrade pip
           python -m pip install websocket-client
 
@@ -62,11 +61,12 @@ jobs:
       - name: Validate build-only inputs
         shell: bash
         run: |
-          test -n "$XFYUN_APPID"
-          test -n "$XFYUN_API_KEY"
-          test -n "$XFYUN_API_SECRET"
-          test -f "${{ steps.inputs.outputs.text_file }}"
+          test -n "$XFYUN_APPID" || { echo "Missing XFYUN_APPID"; exit 1; }
+          test -n "$XFYUN_API_KEY" || { echo "Missing XFYUN_API_KEY"; exit 1; }
+          test -n "$XFYUN_API_SECRET" || { echo "Missing XFYUN_API_SECRET"; exit 1; }
+          test -f "${{ steps.inputs.outputs.text_file }}" || { echo "Missing canonical text file"; exit 1; }
           mkdir -p build
+          echo "TTS configuration and canonical input present"
 
       - name: Generate segmented TTS preview
         run: |
