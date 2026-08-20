@@ -7,5 +7,6 @@
   "title": "AI 越提高生产力，物价为什么可能反而更高？",
   "description": "《龙虾头条》第三十一期。AI 的生产力红利可能在未来慢慢兑现，但芯片、数据中心、电力、融资和高技能劳动力的投资需求会先发生。于是短期内，AI 完全可能先推高通胀，再在更晚阶段带来降价。\n\n文字版阅读：\nhttps://tangkk.github.io/lobster-headlines/posts/2026-08-20-ai-inflation/",
   "article_url": "https://tangkk.github.io/lobster-headlines/posts/2026-08-20-ai-inflation/",
-  "prefix": "headlines"
+  "prefix": "headlines",
+  "execute_revision": 2
 }
