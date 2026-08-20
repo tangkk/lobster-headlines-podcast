@@ -13,11 +13,9 @@ on:
       text_file:
         description: Canonical text file to synthesize
         required: true
-        default: episodes/ep030-ai-not-hiring.txt
       output_name:
-        description: Output mp3 filename
-        required: true
-        default: ep030-ai-not-hiring-preview.mp3
+        description: Output mp3 filename; leave blank to derive from canonical filename
+        required: false
 
 concurrency:
   group: tts-preview-${{ github.event.pull_request.number || github.ref }}
@@ -38,6 +36,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 2
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -60,12 +60,22 @@ jobs:
         shell: bash
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "text_file=${{ inputs.text_file }}" >> "$GITHUB_OUTPUT"
-            echo "output_name=${{ inputs.output_name }}" >> "$GITHUB_OUTPUT"
+            TEXT_FILE="${{ inputs.text_file }}"
+            OUTPUT_NAME="${{ inputs.output_name }}"
           else
-            echo "text_file=episodes/ep030-ai-not-hiring.txt" >> "$GITHUB_OUTPUT"
-            echo "output_name=ep030-ai-not-hiring-preview.mp3" >> "$GITHUB_OUTPUT"
+            mapfile -t EPISODES < <(git diff --name-only HEAD^1 HEAD -- 'episodes/*.txt')
+            test "${#EPISODES[@]}" -eq 1 || { echo "Expected exactly one changed canonical episode, found ${#EPISODES[@]}"; printf '%s\n' "${EPISODES[@]}"; exit 1; }
+            TEXT_FILE="${EPISODES[0]}"
+            OUTPUT_NAME=""
           fi
+          test -n "$TEXT_FILE" || { echo 'Missing canonical text file input'; exit 1; }
+          if [ -z "$OUTPUT_NAME" ]; then
+            STEM=$(basename "$TEXT_FILE" .txt)
+            OUTPUT_NAME="${STEM}-preview.mp3"
+          fi
+          echo "text_file=$TEXT_FILE" >> "$GITHUB_OUTPUT"
+          echo "output_name=$OUTPUT_NAME" >> "$GITHUB_OUTPUT"
+          echo "Resolved canonical: $TEXT_FILE -> $OUTPUT_NAME"
 
       - name: Validate build-only inputs
         shell: bash
