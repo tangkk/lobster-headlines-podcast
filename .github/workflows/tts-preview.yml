@@ -1,6 +1,13 @@
 name: TTS Preview
 
 on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'episodes/**'
+      - '.github/workflows/tts-preview.yml'
+      - 'scripts/xfyun-tools/**'
   push:
     branches:
       - 'build/**'
