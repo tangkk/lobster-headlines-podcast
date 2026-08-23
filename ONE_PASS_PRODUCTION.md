@@ -39,6 +39,8 @@
 ## 6. 文字版必须在正式 VERIFY 中单独检查
 
 - “文字 repo source 已 commit”不等于“网站已发布”。
+- **文字版正文必须逐字使用最终批准的 canonical 口播稿原文，禁止摘要、改写、二次生成或删节。** 网页只允许额外增加 front matter、音频播放器、备用音频链接等展示层内容。
+- 发布前必须验证 `web_article_body == approved_canonical_text`；不一致直接 fail closed。
 - 文字文章必须 `draft: false`，播放器指向与 Podcast enclosure 相同的 R2 object。
 - Hugo front matter `date` **不得晚于实际 build 时间**。GitHub Pages/Hugo 默认会跳过 future-dated content；建议发布时间使用实际当前时间或安全回拨 1–2 分钟。
 - VERIFY 顺序：source entry 存在 → Pages workflow/deployment 成功 → article URL 可访问 → 首页/列表出现新 entry。
@@ -48,7 +50,7 @@
 
 必须逐项确认：
 
-`canonical ✓ → preview artifact ✓ → audio QA ✓ → approved SHA ✓ → merge ✓ → R2 ✓ → podcast RSS ✓ → duration/length ✓ → text source ✓ → Pages ✓ → online article/list ✓`
+`canonical ✓ → preview artifact ✓ → audio QA ✓ → approved SHA ✓ → merge ✓ → R2 ✓ → podcast RSS ✓ → duration/length ✓ → text source = canonical verbatim ✓ → Pages ✓ → online article/list ✓`
 
 Workflow 显示 success 不是最终成功定义；最终成功定义是生产端实际可见且 metadata 一致。
 
