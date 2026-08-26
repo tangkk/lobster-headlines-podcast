@@ -10,7 +10,7 @@
 文字版主页：&lt;a href="https://tangkk.github.io/lobster-headlines/"&gt;https://tangkk.github.io/lobster-headlines/&lt;/a&gt;</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾头条)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾头条)</webMaster>
-    <lastBuildDate>Thu, 20 Aug 2026 14:20:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 06:58:04 +0000</lastBuildDate>
     <ttl>60</ttl>
     <itunes:type>episodic</itunes:type>
     <itunes:author>龙虾头条</itunes:author>
@@ -29,7 +29,10 @@
       <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     </image>
     <itunes:category text="Education" />
-    <item><title>AI 越提高生产力，物价为什么可能反而更高？</title><description>《龙虾头条》第三十一期。AI 的生产力红利可能在未来慢慢兑现，但芯片、数据中心、电力、融资和高技能劳动力的投资需求会先发生。于是短期内，AI 完全可能先推高通胀，再在更晚阶段带来降价。
+    <item><title>所有公司都说 AI 提高效率，为什么我们还很难在经济数据里看到它？</title><description>《龙虾头条》第三十二期。很多员工和企业已经感受到 AI 带来的任务级效率提升，但从局部加速传导到完整工作流、企业产出和宏观生产率，需要流程重构、组织调整和时间。微观提升可能是真的，宏观传导也可能真的很慢。
+
+文字版阅读：
+https://tangkk.github.io/lobster-headlines/posts/2026-08-26-ai-productivity-data/</description><pubDate>Wed, 26 Aug 2026 06:58:04 +0000</pubDate><guid isPermaLink="false">ep032-ai-productivity-data</guid><enclosure url="https://pub-e2d65fa7f70240878f2e556592826485.r2.dev/headlines/ep032-ai-productivity-data.mp3" length="2149773" type="audio/mpeg" /><itunes:duration>00:08:57</itunes:duration><itunes:explicit>false</itunes:explicit></item><item><title>AI 越提高生产力，物价为什么可能反而更高？</title><description>《龙虾头条》第三十一期。AI 的生产力红利可能在未来慢慢兑现，但芯片、数据中心、电力、融资和高技能劳动力的投资需求会先发生。于是短期内，AI 完全可能先推高通胀，再在更晚阶段带来降价。
 
 文字版阅读：
 https://tangkk.github.io/lobster-headlines/posts/2026-08-20-ai-inflation/</description><pubDate>Thu, 20 Aug 2026 14:20:01 +0000</pubDate><guid isPermaLink="false">ep031-ai-inflation</guid><enclosure url="https://pub-e2d65fa7f70240878f2e556592826485.r2.dev/headlines/ep031-ai-inflation.mp3" length="1417485" type="audio/mpeg" /><itunes:duration>00:05:54</itunes:duration><itunes:explicit>false</itunes:explicit></item><item><title>AI 抢走的第一批工作，可能根本没人被裁</title><description>《龙虾头条》第三十期。企业越来越公开把裁员和人工智能联系起来，但真正更早出现的就业冲击，可能不是 firing，而是 not hiring。宏观失业数据还没有显示大规模 AI 替代，年轻人进入白领职场的入口却可能正在变窄。
