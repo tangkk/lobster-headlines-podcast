@@ -1,0 +1,37 @@
+name: Install cover v2
+on:
+  push:
+    branches: [cover-v2-install-2]
+    paths:
+      - '.cover-upload/ready'
+permissions:
+  contents: write
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: cover-v2-install-2
+      - name: Rebuild cover-v2 and update RSS
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .cover-upload/chunk-* | base64 -d > cover-v2.jpg
+          test "$(wc -c < cover-v2.jpg)" -gt 60000
+          file cover-v2.jpg | grep -qi 'JPEG image data'
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('feed.xml')
+          s=p.read_text()
+          s=s.replace('https://tangkk.github.io/lobster-headlines-podcast/cover.jpg','https://tangkk.github.io/lobster-headlines-podcast/cover-v2.jpg')
+          p.write_text(s)
+          PY
+          grep -Fq 'cover-v2.jpg' feed.xml
+          rm -rf .cover-upload
+          rm -f .github/workflows/install-cover-v2.yml
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add -A
+          git commit -m 'Install 龙虾头条 cover v2'
+          git push origin HEAD:cover-v2-install-2
