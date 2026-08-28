@@ -22,9 +22,9 @@
       <itunes:name>龙虾头条</itunes:name>
       <itunes:email>dengjunqi06323011@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg" />
+    <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover-v2.jpg" />
     <image>
-      <url>https://tangkk.github.io/lobster-headlines-podcast/cover.jpg</url>
+      <url>https://tangkk.github.io/lobster-headlines-podcast/cover-v2.jpg</url>
       <title>龙虾头条</title>
       <link>https://tangkk.github.io/lobster-headlines-podcast</link>
     </image>
@@ -403,7 +403,7 @@ OpenClaw 在未来 2-3 年，会有怎样的演变？
       <enclosure url="https://pub-e2d65fa7f70240878f2e556592826485.r2.dev/headlines/ep003-meisu-and-sneakers.mp3" length="3228778" type="audio/mpeg" />
       <itunes:duration>00:03:22</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg" />
+      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover-v2.jpg" />
     </item>
     <item>
       <title>5分钟上手：怎样把普通工作日变成半自动化工作流</title>
@@ -421,7 +421,7 @@ OpenClaw 在未来 2-3 年，会有怎样的演变？
       <enclosure url="https://pub-e2d65fa7f70240878f2e556592826485.r2.dev/headlines/ep002-half-automation-workday.mp3" length="4731342" type="audio/mpeg" />
       <itunes:duration>00:04:56</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg" />
+      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover-v2.jpg" />
     </item>
     <item>
       <title>5分钟懂 OpenClaw：到今天你最该知道的10件事</title>
@@ -451,7 +451,7 @@ OpenClaw 在未来 2-3 年，会有怎样的演变？
       <enclosure url="https://pub-e2d65fa7f70240878f2e556592826485.r2.dev/headlines/ep001-openclaw-10-things.mp3" length="4469699" type="audio/mpeg" />
       <itunes:duration>00:04:39</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover.jpg" />
+      <itunes:image href="https://tangkk.github.io/lobster-headlines-podcast/cover-v2.jpg" />
     </item>
   </channel>
 </rss>
